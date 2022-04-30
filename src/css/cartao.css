@@ -1,0 +1,78 @@
+.cartao-pokemon {
+    border-top-left-radius: 0.4rem;
+    border-top-right-radius: 0.4rem;
+    display:none;
+}
+
+.cartao-pokemon .cartao-topo {
+    padding: 2rem 2rem 0;
+    background: blueviolet;
+    border-top-right-radius: 0.4rem;
+    border-top-left-radius: 0.4rem;
+}
+
+.cartao-topo .cartao-detalhes {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    color:#fff;
+}
+
+.cartao-topo .cartao-detalhes h2 {
+    margin-bottom: 0.3rem;
+}
+
+.cartao-topo .tipo {
+    background-color: gray;
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.6rem;
+    color: #fff;
+}
+
+.cartao-topo .cartao-imagem {
+    width:350px;
+    height: 360px;
+}
+
+.cartao-topo .cartao-imagem  img {
+    max-height: 100%;
+}
+
+
+.cartao-pokemon .cartao-informacoes {
+    /* size : 80px 30px 50px */
+    padding: 5rem 1.875rem 3.125rem;
+    border-bottom-left-radius: 0.4rem;
+    border-bottom-right-radius: 0.4rem;
+    background: #fff;
+    margin-top: -5rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.cartao-informacoes .cartao-status, .cartao-informacoes .cartao-habilidades {
+    padding: 0 0.625rem;
+    width: 140px;
+}
+
+.cartao-informacoes .cartao-status h3, .cartao-informacoes .cartao-habilidades h3{
+    border-bottom: 1px solid gray;
+    /* size: 10px */
+    padding-bottom: 0.313rem;
+    margin-bottom:  0.875rem;
+
+}
+
+.cartao-informacoes .cartao-status  li, .cartao-informacoes .cartao-habilidades  li {
+    border-bottom: 1px solid gray;
+    /* size: 10px */
+    padding-bottom: 0.25rem;
+    margin-bottom:  0.25rem;
+    font-size: 0.938rem ;
+
+}
+
+.aberto {
+    display: block;
+}

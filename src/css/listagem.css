@@ -1,0 +1,19 @@
+.listagem {
+    max-width: 240px;
+}
+
+.pokemon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    padding: 0.4rem;
+    background: gray;
+    margin-bottom: 20px;
+}
+
+.listagem .pokemon img {
+    width: 25%;
+    border-radius: 50%;
+}
