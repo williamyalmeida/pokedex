@@ -5,7 +5,8 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(200, 255, 0);
+    background-image: linear-gradient(to right top, #2695d0, #3c6d9b, #384968, #272a38, #0d0d0d);
+    
 }
 
 .pokedex {

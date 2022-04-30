@@ -1,6 +1,8 @@
 @media (max-width: 630px){
     
-  
+  body {
+      font-size: 0.75rem;
+  }
     
     .pokedex {
         flex-direction: column;
@@ -21,8 +23,8 @@
     
 
     .cartao-pokemon .cartao-informacoes {
-       padding: 3.75rem 1.875rem 1.875rem;
-       margin-top: -50px;
+        padding: 3.75rem 1.875rem 1.875rem;
+        margin-top: -50px;
     }
 
 
@@ -36,10 +38,7 @@
 
     .listagem .pokemon {
         width: 140px;
-        border-top-left-radius: 0.4rem;
-        border-bottom-left-radius: 0.4rem;
-        border-top-right-radius: 0.4rem;
-        border-top-left-radius: 0.4rem;
+        border-radius: 0.4rem;
     }
 
 }

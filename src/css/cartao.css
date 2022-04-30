@@ -1,12 +1,14 @@
 .cartao-pokemon {
     border-top-left-radius: 0.4rem;
     border-top-right-radius: 0.4rem;
+    transition: all 0.5s ease-in-out;
     display:none;
 }
 
 .cartao-pokemon .cartao-topo {
     padding: 2rem 2rem 0;
-    background: blueviolet;
+    font-size: 0.625rem;
+   
     border-top-right-radius: 0.4rem;
     border-top-left-radius: 0.4rem;
 }
@@ -23,19 +25,23 @@
 }
 
 .cartao-topo .tipo {
-    background-color: gray;
+    background-color: #e9ecef;
+    opacity: 0.5;
     padding: 0.2rem 0.4rem;
     border-radius: 0.6rem;
-    color: #fff;
+    
 }
 
 .cartao-topo .cartao-imagem {
     width:350px;
     height: 360px;
+    
+
 }
 
 .cartao-topo .cartao-imagem  img {
     max-height: 100%;
+    animation: pokemon-mover 2.1s ease-in-out alternate infinite;
 }
 
 
@@ -44,6 +50,7 @@
     padding: 5rem 1.875rem 3.125rem;
     border-bottom-left-radius: 0.4rem;
     border-bottom-right-radius: 0.4rem;
+    font-weight: 300;
     background: #fff;
     margin-top: -5rem;
     display: flex;
@@ -73,6 +80,29 @@
 
 }
 
+.eletrico {
+    background-color: #F2E205;
+}
+
+.grama {
+    background-color: #9BF2DA;
+}
+
+.fogo {
+    background-color: #F27405;
+}
+
+.agua {
+    background-color: #35BDF2;
+}
+
+.trevas {
+    background-color: #897ABF;
+}
+
+.voador {
+    background-color: #F29F05;
+}
 .aberto {
     display: block;
 }

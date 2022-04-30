@@ -9,11 +9,22 @@
     border-top-left-radius: 2rem;
     border-bottom-left-radius: 2rem;
     padding: 0.4rem;
-    background: gray;
+    background: #A8B5BE;
+    color: #fff;
     margin-bottom: 20px;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.pokemon:hover {
+    transform: scale(0.8);
 }
 
 .listagem .pokemon img {
     width: 25%;
     border-radius: 50%;
+}
+
+.ativo {
+    background-color: #FDB1A3;
 }

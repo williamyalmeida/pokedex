@@ -1,0 +1,5 @@
+@keyframes pokemon-mover {
+    from{
+        transform: translateY(4%);
+    }
+}
